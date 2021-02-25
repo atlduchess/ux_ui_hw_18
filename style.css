@@ -1,0 +1,101 @@
+html{
+    height: 100%;
+ }
+  
+  
+ body{
+    background-color: dimgray;
+    background-image: url(fresh-beautiful-peony-flowers.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;  }
+  
+  header {
+  
+    background-color:#e1d6d6;
+    height:118
+    px;
+    margin-top: 70px;
+    text-align:center;
+  }
+  
+  nav {
+  background-color:rgba(0, 0, 0, 0.219);
+    text-align:center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+  
+  main{
+     background-color:#fdf7f7;
+        height:400px;
+        text-align: center;
+        padding-top: 80px;
+        padding-left: 230px;
+        padding-right: 230px;
+  
+  
+     }
+  
+  
+    footer {
+         background-color: rgba(0, 0, 0, 0.561);
+           padding-top: 50px;
+           padding-bottom: 50px;
+         }
+  
+  
+  .container {
+  
+    margin-left: auto;
+    margin-right: auto;
+    width: 1042px;
+  }
+  h1{
+      font-size: 40px;
+      color: black;
+      font-family: fantasy;
+  
+  }
+  
+  p{
+    font: size 18px;
+    color: black;
+    font-family: fantasy;
+  
+  }
+  a{
+      color:black;
+      font-family: fantasy;
+     
+  }
+  
+  nav a{
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+  }
+  
+  footer p{
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    padding-top: xs
+  }
+ 
+  .skills ul{
+    padding:0;
+  }
+  .skills ul li{
+    list-style-type:none;
+    padding bottom:5px;
+  }
+
+  .skillcards{
+    display:flex;
+    justify-content: space-between;
+  }
+  .cards{
+
+  }
