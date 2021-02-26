@@ -6,14 +6,12 @@ html{
  body{
     background-color: dimgray;
     background-image: url(fresh-beautiful-peony-flowers.jpg);
-    background-size:cover;
     background-repeat: no-repeat;  }
   
   header {
   
     background-color:#e1d6d6;
-    height:118
-    px;
+    height:118px;
     margin-top: 70px;
     text-align:center;
   }
@@ -26,7 +24,7 @@ html{
   }
   
   main{
-     background-color:#fdf7f7;
+     
         height:400px;
         text-align: center;
         padding-top: 80px;
@@ -48,7 +46,8 @@ html{
   
     margin-left: auto;
     margin-right: auto;
-    width: 1042px;
+    max-width: 1042px;
+    background-color:#fdf7f7;
   }
   h1{
       font-size: 40px;
@@ -81,7 +80,7 @@ html{
     font-size: 10px;
     text-align: center;
     color: white;
-    padding-top: xs
+    padding-top: xs;
   }
  
   .skills ul{
@@ -89,13 +88,57 @@ html{
   }
   .skills ul li{
     list-style-type:none;
-    padding bottom:5px;
+    padding-bottom:5px;
   }
 
   .skillcards{
     display:flex;
     justify-content: space-between;
   }
-  .cards{
+
+  .card{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:15px;
+  }
+  .projectbutton{
+   background-color:#fafafa;
+   color:black;
+   border-radius:10px;
+   border:3px solid black;
+   padding: 8px 8px;
 
   }
+
+  .cardimage{
+    height:200px;
+    width:200px;
+    overflow:hidden;
+    
+  }
+  .work{
+    padding:0 100px;
+  }
+  .skills{
+    padding: 0 100px;
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    .card, .skillcards {
+      flex-direction: column;
+     }
+     main{
+     
+      height:auto;
+      padding-left: 50px;
+      padding-right: 50px;
+
+
+   }
+.work, .skills {
+  padding: 0 50px;
+}
+
+   }
